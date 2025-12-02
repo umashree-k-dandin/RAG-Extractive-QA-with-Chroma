@@ -35,3 +35,40 @@ ChromaDB
 PyMuPDF
 
 Docx2Txt
+
+📁 Project Structure
+project/
+│
+├── data/
+│   └── knowledge_base/        # Your PDFs, DOCX, TXT files
+│
+├── chroma_store/              # Auto-generated vector DB
+│
+├── main.py                    # RAG + QA pipeline
+│
+└── README.md
+
+
+How It Works
+
+Loads all documents from your folder path
+
+Splits them into 1000-character chunks
+
+Converts chunks into vector embeddings
+
+Saves them in ChromaDB
+
+Retrieves top-k relevant chunks when a question is asked
+
+Sends merged context to an extractive QA model
+
+Returns:
+
+Precise answer
+
+Confidence score
+
+Retrieved document snippets
+
+Sources
