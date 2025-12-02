@@ -38,10 +38,10 @@ Docx2Txt
 
 📁 Project Structure
            project/
-                ├── data/ knowledge_base/        (# Your PDFs, DOCX, TXT files)
-                ├── chroma_store/                ( # Auto-generated vector DB)
-                ├── main.py                   ( # RAG + QA pipeline)
-                └── README.md
+                data/ knowledge_base/        (# Your PDFs, DOCX, TXT files)
+                chroma_store/                ( # Auto-generated vector DB)
+                main.py                   ( # RAG + QA pipeline)
+                README.md
 
 
 How It Works
