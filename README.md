@@ -3,7 +3,7 @@ A Retrieval-Augmented Question Answering (RAG) system using ChromaDB, HuggingFac
 
 
 
-🚀 Features
+## 🚀 Features
 
 📂 Load PDF, DOCX, and TXT documents
 
@@ -20,7 +20,7 @@ A Retrieval-Augmented Question Answering (RAG) system using ChromaDB, HuggingFac
 📚 Displays retrieved chunks + confidence score
 
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Python 3.x
 
@@ -36,7 +36,7 @@ PyMuPDF
 
 Docx2Txt
 
-📁 Project Structure
+ ## 📁 Project Structure
            project/
            
                 data/ knowledge_base/        (# Your PDFs, DOCX, TXT files)
@@ -48,7 +48,7 @@ Docx2Txt
                 README.md
 
 
-How It Works
+# How It Works
 
 Loads all documents from your folder path
 
@@ -73,7 +73,7 @@ Retrieved document snippets
 Sources
 
 
-Running the App
+ ## Running the App
 1. Install dependencies
    pip install langchain-text-splitters langchain-community langchain-huggingface chromadb transformers pymupdf python-docx
 
@@ -89,7 +89,7 @@ Example:
 Ask a question: What is the UPSC exam pattern?
 
 
-Sample Output
+## Sample Output
 💡 Extractive Answer (precise): The UPSC exam consists of...
 📊 Confidence: 0.86
 
