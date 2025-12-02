@@ -72,3 +72,29 @@ Confidence score
 Retrieved document snippets
 
 Sources
+
+
+Running the App
+1. Install dependencies
+   pip install langchain-text-splitters langchain-community langchain-huggingface chromadb transformers pymupdf python-docx
+
+2. Update the document folder path
+In the script:
+DOCS_FOLDER = r"path/to/your/documents"
+
+3. Run the script
+python main.py
+
+4. Ask questions
+Example:
+Ask a question: What is the UPSC exam pattern?
+
+
+Sample Output
+💡 Extractive Answer (precise): The UPSC exam consists of...
+📊 Confidence: 0.86
+
+📝 Detailed Context:
+--- Chunk 1 (source: upsc.pdf) ---
+"The UPSC Civil Services Examination..."
+
