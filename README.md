@@ -15,6 +15,8 @@ A Retrieval-Augmented Question Answering (RAG) system using ChromaDB, HuggingFac
 💬 Interactive terminal-based question answering
 
 📚 Displays retrieved chunks + confidence score
+
+
 🛠️ Tech Stack
 
 Python 3.x
