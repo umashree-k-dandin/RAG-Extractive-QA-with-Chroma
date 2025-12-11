@@ -1,8 +1,6 @@
 # RAG-Extractive-QA-with-Chroma
 A Retrieval-Augmented Question Answering (RAG) system using ChromaDB, HuggingFace embeddings, and DistilBERT-based extractive QA for querying PDF, TXT, and DOCX documents.
 
-
-
 # 🚀 Features
 
 📂 Load PDF, DOCX, and TXT documents
@@ -96,7 +94,9 @@ Ask a question: What is the UPSC exam pattern?
 📝 Detailed Context:
 --- Chunk 1 (source: upsc.pdf) ---
 "The UPSC Civil Services Examination..."
+ Output image1:
 <img width="1820" height="851" alt="Screenshot 2025-10-09 163916" src="https://github.com/user-attachments/assets/f42a8783-cb87-4b5c-bd2c-94f734b9e4ee" />
+ Output image2:
 <img width="1796" height="648" alt="Screenshot 2025-10-08 173010" src="https://github.com/user-attachments/assets/bf978648-c362-4394-bec0-e68422f97238" />
 
 
